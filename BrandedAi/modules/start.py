@@ -71,7 +71,7 @@ async def help(client: Branded, m: Message):
         await add_served_chat(m.chat.id)
 
 
-@Branded.on_cmd("repo")
+@Branded.on_cmd("rhhhepo")
 async def repo(_, m: Message):
     await m.reply_text(
         text=SOURCE_READ,

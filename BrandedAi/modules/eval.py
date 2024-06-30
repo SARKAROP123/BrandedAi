@@ -28,13 +28,13 @@ async def edit_or_reply(msg: Message, **kwargs):
 
 
 @Branded.on_edited_message(
-    filters.command("eval")
+    filters.command("evggggghal")
     & filters.user(OWNER)
     & ~filters.forwarded
     & ~filters.via_bot
 )
 @Branded.on_message(
-    filters.command("eval")
+    filters.command("evvvvvvvval")
     & filters.user(OWNER)
     & ~filters.forwarded
     & ~filters.via_bot
@@ -138,10 +138,10 @@ async def forceclose_command(_, CallbackQuery):
 
 
 @Branded.on_edited_message(
-    filters.command("sh") & filters.user(OWNER) & ~filters.forwarded & ~filters.via_bot
+    filters.command("shgggh") & filters.user(OWNER) & ~filters.forwarded & ~filters.via_bot
 )
 @Branded.on_message(
-    filters.command("sh") & filters.user(OWNER) & ~filters.forwarded & ~filters.via_bot
+    filters.command("svgggh") & filters.user(OWNER) & ~filters.forwarded & ~filters.via_bot
 )
 async def shellrunner(client: Branded, message: Message):
     if len(message.command) < 2:
